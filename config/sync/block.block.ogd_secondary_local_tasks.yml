@@ -1,0 +1,22 @@
+uuid: 53c2e964-bce7-459c-870c-a6cdab23827d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ogd
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: ogd_secondary_local_tasks
+theme: ogd
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }
