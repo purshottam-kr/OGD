@@ -3,11 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.article
-    - node.type.page
+    - node.type.sub_chapters
     - taxonomy.vocabulary.tags
+    - workflows.workflow.editorial
   module:
     - comment
+    - content_moderation
     - contextual
     - file
     - node
@@ -18,8 +19,8 @@ dependencies:
 _core:
   default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
 id: content_editor
-label: 'Content editor'
-weight: 2
+label: Author
+weight: -6
 is_admin: false
 permissions:
   - 'access administration pages'
@@ -28,20 +29,20 @@ permissions:
   - 'access files overview'
   - 'access toolbar'
   - 'administer url aliases'
-  - 'create article content'
-  - 'create page content'
+  - 'create sub_chapters content'
   - 'create terms in tags'
   - 'create url aliases'
-  - 'delete article revisions'
-  - 'delete own article content'
   - 'delete own files'
-  - 'delete own page content'
-  - 'delete page revisions'
-  - 'edit own article content'
+  - 'edit any sub_chapters content'
   - 'edit own comments'
-  - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition needs_work'
+  - 'use editorial transition ready_for_review'
   - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'
   - 'view own unpublished content'
+  - 'view sub_chapters revisions'
   - 'view the administration theme'
