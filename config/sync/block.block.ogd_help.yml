@@ -1,0 +1,22 @@
+uuid: c1726337-dd37-4569-a7fe-2c605473ac58
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ogd
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: ogd_help
+theme: ogd
+region: navigation
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

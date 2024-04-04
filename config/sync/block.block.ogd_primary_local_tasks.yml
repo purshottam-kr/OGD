@@ -1,0 +1,22 @@
+uuid: c48ce677-2e80-4221-8827-03f3972b7a6d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ogd
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: ogd_primary_local_tasks
+theme: ogd
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
