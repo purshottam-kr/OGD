@@ -1,4 +1,4 @@
-uuid: b85d7917-eb29-4ca7-a3aa-ed2eb4c27d62
+uuid: 1d9de414-4153-4fdf-b1ff-afa13ae75de5
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ dependencies:
     - node
     - system
     - toolbar
-id: reviewer
-label: Reviewer
-weight: -5
+id: publisher
+label: Publisher
+weight: -4
 is_admin: null
 permissions:
   - 'access content overview'
