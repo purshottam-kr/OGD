@@ -1,0 +1,32 @@
+uuid: 85afd802-bf89-4fa7-a86b-3639cdb26b2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.chapters.body
+    - field.field.node.chapters.field_serial_number
+    - node.type.chapters
+  module:
+    - text
+    - user
+id: node.chapters.teaser
+targetEntityType: node
+bundle: chapters
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_serial_number: true

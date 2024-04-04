@@ -1,0 +1,22 @@
+uuid: 5521144a-5cf1-4845-9c45-f5795621259e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ogd
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: ogd_content
+theme: ogd
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
