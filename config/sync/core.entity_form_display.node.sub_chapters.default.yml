@@ -7,10 +7,8 @@ dependencies:
     - field.field.node.sub_chapters.field_chapter_number
     - field.field.node.sub_chapters.field_comments
     - node.type.sub_chapters
-    - workflows.workflow.editorial
   module:
     - comment
-    - content_moderation
     - path
     - text
 id: node.sub_chapters.default
@@ -37,12 +35,6 @@ content:
   field_comments:
     type: comment_default
     weight: 9
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  moderation_state:
-    type: moderation_state_default
-    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -93,3 +85,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_chapter_number: true
+  moderation_state: true

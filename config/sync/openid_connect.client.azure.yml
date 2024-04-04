@@ -6,8 +6,8 @@ id: azure
 label: Azure
 plugin: generic
 settings:
-  client_id: 
-  client_secret: 
+  client_id: null
+  client_secret: null
   iss_allowed_domains: ''
   issuer_url: ''
   authorization_endpoint: ''

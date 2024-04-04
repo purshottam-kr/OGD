@@ -5,10 +5,8 @@ dependencies:
   config:
     - node.type.sub_chapters
     - taxonomy.vocabulary.tags
-    - workflows.workflow.editorial
   module:
     - comment
-    - content_moderation
     - contextual
     - file
     - node
@@ -37,12 +35,7 @@ permissions:
   - 'edit own comments'
   - 'edit terms in tags'
   - 'revert all revisions'
-  - 'use editorial transition create_new_draft'
-  - 'use editorial transition needs_work'
-  - 'use editorial transition ready_for_review'
   - 'view all revisions'
-  - 'view any unpublished content'
-  - 'view latest version'
   - 'view own unpublished content'
   - 'view sub_chapters revisions'
   - 'view the administration theme'
