@@ -30,3 +30,4 @@ content:
     region: content
 hidden:
   field_serial_number: true
+  langcode: true

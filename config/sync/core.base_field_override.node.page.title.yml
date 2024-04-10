@@ -1,0 +1,18 @@
+uuid: 2a8ac018-7a2b-4c90-a713-16b965d7833b
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.title
+field_name: title
+entity_type: node
+bundle: page
+label: Titel
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

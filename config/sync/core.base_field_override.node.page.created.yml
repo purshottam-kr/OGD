@@ -1,0 +1,18 @@
+uuid: 4f988644-19e2-4ed4-ae2b-abaf5aca404a
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.created
+field_name: created
+entity_type: node
+bundle: page
+label: 'Geschrieben am'
+description: 'Das Datum und die Uhrzeit, zu der der Inhalt erstellt wurde.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

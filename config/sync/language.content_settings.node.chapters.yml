@@ -1,0 +1,18 @@
+uuid: 190ac284-0b94-4bfa-a9a9-0071e3c5d7b7
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.chapters
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.chapters
+target_entity_type_id: node
+target_bundle: chapters
+default_langcode: site_default
+language_alterable: true
